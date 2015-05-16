@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="blue1" type="color">#DEEBF7</item>
+    <item name="blue2" type="color">#00A7FF</item>
+    <item name="blue3" type="color">#9DC3E6</item>
+    <item name="black" type="color">#3B3838</item>
+    <item name="grey" type="color">#767171</item>
+    <item name="yellow" type="color">#E8B618</item>
+    <item name="turquoise" type="color">#22DEA4</item>
+    <item name="orange1" type="color">#F2550E</item>
+    <item name="orange2" type="color">#ED7D31</item>
+    <item name="green" type="color">#70AD47</item>
+
+    <integer-array name="sugarmolecolors">
+        <item>@color/blue1</item>
+        <item>@color/blue2</item>
+        <item>@color/blue3</item>
+        <item>@color/black</item>
+        <item>@color/grey</item>
+        <item>@color/yellow</item>
+        <item>@color/turquoise</item>
+        <item>@color/orange1</item>
+        <item>@color/orange2</item>
+        <item>@color/green</item>
+    </integer-array>
+
+</resources> 
