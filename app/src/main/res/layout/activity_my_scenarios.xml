@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.remi.sugarmole.HeatingActivity"
+    android:background="@color/blue1"
+    android:id="@+id/">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frameLayout">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/blue2"
+                android:id="@+id/blueBar"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/frameLayout"
+                android:layout_alignStart="@+id/frameLayout" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView11"
+                android:src="@drawable/plus_100" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/elem1"
+            android:focusableInTouchMode="false"
+            android:background="@color/blue1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:weightSum="100"
+                android:layout_marginBottom="7dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView4"
+                    android:background="@color/blue2"
+                    android:padding="7dp"
+                    android:src="@drawable/sun_100"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Quand il fait beau dehors, ouvrir les stores du salon"
+                    android:id="@+id/textView15"
+                    android:textSize="15dp"
+                    android:layout_weight="80"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:weightSum="100"
+                android:layout_marginBottom="7dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView5"
+                    android:background="@color/blue2"
+                    android:padding="7dp"
+                    android:src="@drawable/rain_100"
+                    android:layout_weight="20" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Quand il pleut, allumer le chauffage du salon et de la chambre"
+                    android:id="@+id/textView16"
+                    android:textSize="15dp"
+                    android:layout_weight="80"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

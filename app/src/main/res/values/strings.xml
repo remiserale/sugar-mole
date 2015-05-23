@@ -21,5 +21,6 @@
     <string name="title_activity_air_con">CLIMATISATION</string>
     <string name="title_activity_security">SECURITE</string>
     <string name="title_activity_outlets">PRISES</string>
+    <string name="title_activity_my_scenarios">MES SCENARIOS</string>
 
 </resources>

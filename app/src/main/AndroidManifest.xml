@@ -45,6 +45,10 @@
             android:name=".OutletsActivity"
             android:label="@string/title_activity_outlets" >
         </activity>
+        <activity
+            android:name=".MyScenariosActivity"
+            android:label="@string/title_activity_my_scenarios" >
+        </activity>
     </application>
 
 </manifest>
