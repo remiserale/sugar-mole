@@ -11,7 +11,9 @@
     <item name="orange1" type="color">#F2550E</item>
     <item name="orange2" type="color">#ED7D31</item>
     <item name="green" type="color">#70AD47</item>
-
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="facebook_blue" type="color">#3B5998</item>
+    <item name="google_red" type="color">#D50F25</item>
     <integer-array name="sugarmolecolors">
         <item>@color/blue1</item>
         <item>@color/blue2</item>
@@ -23,6 +25,7 @@
         <item>@color/orange1</item>
         <item>@color/orange2</item>
         <item>@color/green</item>
+        <item>@color/white</item>
     </integer-array>
 
 </resources> 

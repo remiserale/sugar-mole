@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp" tools:context=".SignInActivity"
+    android:id="@+id/signInActivity"
+    android:background="@color/blue1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30">
+
+            <ImageView
+                android:layout_width="191dp"
+                android:layout_height="91dp"
+                android:id="@+id/imageView7"
+                android:src="@drawable/sugar_mole"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/white"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="10">
+
+            <ImageView
+                android:layout_width="31dp"
+                android:layout_height="31dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/new_post_100"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:background="@null"
+                android:hint="@string/email"
+                android:paddingLeft="15dp"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/white"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="10">
+
+            <ImageView
+                android:layout_width="31dp"
+                android:layout_height="31dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/lock_2_100_grey"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:background="@null"
+                android:hint="@string/password"
+                android:paddingLeft="15dp"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/connect"
+                android:id="@+id/button3"
+                android:textColor="@color/white"
+                android:background="@color/blue2" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

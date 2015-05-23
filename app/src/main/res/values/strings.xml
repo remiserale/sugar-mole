@@ -3,4 +3,21 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title1">SUGAR</string>
+    <string name="title2">MOLE</string>
+    <string name="subscribe_by_mail">ou s\'inscrire par e-mail</string>
+    <string name="subscribe">S\'inscrire</string>
+    <string name="already_subscribed">Déjà inscrit ?</string>
+    <string name="connection">Connexion</string>
+    <string name="password_forgotten">Mot de passe oublié ?</string>
+    <string name="email">E-mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="confirm_password">Confirmez votre mot de passe</string>
+    <string name="title_activity_connection">ConnectionActivity</string>
+    <string name="connect">Connexion</string>
+    <string name="title_activity_lights">LUMIERES</string>
+    <string name="title_activity_heating">CHAUFFAGE</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_air_con">CLIMATISATION</string>
+
 </resources>
