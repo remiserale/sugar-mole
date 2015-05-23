@@ -53,6 +53,10 @@
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
+        <activity
+            android:name=".CompatibilityActivity"
+            android:label="@string/title_activity_compatibility" >
+        </activity>
     </application>
 
 </manifest>

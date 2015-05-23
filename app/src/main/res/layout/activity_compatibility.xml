@@ -1,0 +1,208 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.remi.sugarmole.HeatingActivity"
+    android:background="@color/blue1"
+    android:id="@+id/">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frameLayout">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/blue2"
+                android:id="@+id/blueBar"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/frameLayout"
+                android:layout_alignStart="@+id/frameLayout" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/elem1"
+            android:focusableInTouchMode="false"
+            android:layout_marginTop="40dp"
+            android:background="@color/blue1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:background="@drawable/whitebordershape"
+                android:layout_weight="8"
+                android:layout_marginBottom="14dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="SEN.SE"
+                    android:id="@+id/textView14"
+                    android:layout_weight="50"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="v 1.0.0.1"
+                    android:id="@+id/textView18"
+                    android:layout_weight="50"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:background="@drawable/whitebordershape"
+                android:layout_weight="8"
+                android:layout_marginBottom="14dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="MYFOX"
+                    android:id="@+id/textView19"
+                    android:layout_weight="50"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="v 5.0.3.2"
+                    android:id="@+id/textView20"
+                    android:layout_weight="50"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:background="@color/white"
+                android:layout_weight="8"
+                android:layout_marginBottom="14dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="DOMOGEEK"
+                    android:id="@+id/textView21"
+                    android:layout_weight="50"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/grey"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="v 4.2"
+                    android:id="@+id/textView22"
+                    android:layout_weight="50"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="15dp"
+                    android:textColor="@color/grey"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:background="@color/white"
+                android:layout_weight="8"
+                android:layout_marginBottom="14dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="FREEBOX"
+                    android:id="@+id/textView23"
+                    android:layout_weight="50"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/grey"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="v 1.0.0.1"
+                    android:id="@+id/textView24"
+                    android:layout_weight="50"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="15dp"
+                    android:textColor="@color/grey"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:background="@color/white"
+                android:layout_weight="8"
+                android:layout_marginBottom="14dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="HP"
+                    android:id="@+id/textView25"
+                    android:layout_weight="50"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/grey"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="v 1.0.0.1"
+                    android:id="@+id/textView26"
+                    android:layout_weight="50"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="15dp"
+                    android:textColor="@color/grey"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

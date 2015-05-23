@@ -25,5 +25,6 @@
     <string name="title_activity_settings">PARAMETRES</string>
     <string name="deconnection">DECONNEXION</string>
     <string name="apropos">A PROPOS</string>
+    <string name="title_activity_compatibility">COMPATIBILITE</string>
 
 </resources>
