@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.remi.sugarmole.HeatingActivity"
+    android:background="@color/blue1"
+    android:id="@+id/">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frameLayout">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/blue2"
+                android:id="@+id/blueBar"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/frameLayout"
+                android:layout_alignStart="@+id/frameLayout" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/elem1"
+            android:focusableInTouchMode="false"
+            android:layout_marginTop="40dp"
+            android:background="@color/blue1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:weightSum="100">
+
+            <Button
+                android:id="@+id/deco_btn"
+
+                android:text="@string/deconnection"
+                android:textColor="#FFFFFF"
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/buttonshape"
+                android:layout_marginBottom="14dp"
+                android:layout_weight="10" />
+
+            <Button
+                android:id="@+id/apropos_btn"
+                android:text="@string/apropos"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/buttonshape"
+                android:layout_marginBottom="14dp"
+                android:layout_weight="10" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

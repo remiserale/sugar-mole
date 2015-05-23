@@ -49,6 +49,10 @@
             android:name=".MyScenariosActivity"
             android:label="@string/title_activity_my_scenarios" >
         </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
     </application>
 
 </manifest>
