@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.remi.sugarmole.HeatingActivity"
+    tools:context="com.remi.sugarmole.CompatibilityActivity"
     android:background="@color/blue1"
     android:id="@+id/">
 
@@ -40,11 +40,11 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:weightSum="100"
                 android:background="@drawable/whitebordershape"
-                android:layout_weight="8"
-                android:layout_marginBottom="14dp">
+                android:layout_weight="12"
+                android:layout_marginBottom="8dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -68,16 +68,17 @@
                     android:paddingRight="15dp"
                     android:textColor="@color/white"
                     android:textSize="15dp" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:weightSum="100"
                 android:background="@drawable/whitebordershape"
-                android:layout_weight="8"
-                android:layout_marginBottom="14dp">
+                android:layout_weight="12"
+                android:layout_marginBottom="8dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -106,18 +107,26 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:weightSum="100"
                 android:background="@color/white"
-                android:layout_weight="8"
-                android:layout_marginBottom="14dp" >
+                android:layout_weight="12"
+                android:layout_marginBottom="8dp" >
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView12"
+                    android:src="@drawable/plus2_100"
+                    android:background="@color/blue2"
+                    android:layout_weight="10" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:text="DOMOGEEK"
                     android:id="@+id/textView21"
-                    android:layout_weight="50"
+                    android:layout_weight="45"
                     android:paddingLeft="15dp"
                     android:textColor="@color/grey"
                     android:textSize="15dp"
@@ -129,28 +138,37 @@
                     android:layout_height="match_parent"
                     android:text="v 4.2"
                     android:id="@+id/textView22"
-                    android:layout_weight="50"
+                    android:layout_weight="45"
                     android:gravity="center_vertical|right"
                     android:paddingRight="15dp"
                     android:textColor="@color/grey"
                     android:textSize="15dp" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:weightSum="100"
                 android:background="@color/white"
-                android:layout_weight="8"
-                android:layout_marginBottom="14dp" >
+                android:layout_weight="12"
+                android:layout_marginBottom="8dp" >
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView13"
+                    android:src="@drawable/plus2_100"
+                    android:background="@color/blue2"
+                    android:layout_weight="10" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:text="FREEBOX"
                     android:id="@+id/textView23"
-                    android:layout_weight="50"
+                    android:layout_weight="45"
                     android:paddingLeft="15dp"
                     android:textColor="@color/grey"
                     android:textSize="15dp"
@@ -162,28 +180,37 @@
                     android:layout_height="match_parent"
                     android:text="v 1.0.0.1"
                     android:id="@+id/textView24"
-                    android:layout_weight="50"
+                    android:layout_weight="45"
                     android:gravity="center_vertical|right"
                     android:paddingRight="15dp"
                     android:textColor="@color/grey"
                     android:textSize="15dp" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:weightSum="100"
                 android:background="@color/white"
-                android:layout_weight="8"
-                android:layout_marginBottom="14dp" >
+                android:layout_weight="12"
+                android:layout_marginBottom="8dp" >
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView14"
+                    android:src="@drawable/plus2_100"
+                    android:background="@color/blue2"
+                    android:layout_weight="10" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:text="HP"
                     android:id="@+id/textView25"
-                    android:layout_weight="50"
+                    android:layout_weight="45"
                     android:paddingLeft="15dp"
                     android:textColor="@color/grey"
                     android:textSize="15dp"
@@ -195,11 +222,12 @@
                     android:layout_height="match_parent"
                     android:text="v 1.0.0.1"
                     android:id="@+id/textView26"
-                    android:layout_weight="50"
+                    android:layout_weight="45"
                     android:gravity="center_vertical|right"
                     android:paddingRight="15dp"
                     android:textColor="@color/grey"
                     android:textSize="15dp" />
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

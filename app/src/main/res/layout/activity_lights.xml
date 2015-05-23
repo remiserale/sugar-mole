@@ -154,7 +154,7 @@
                     android:id="@+id/imageView9"
                     android:background="@color/blue2"
                     android:padding="7dp"
-                    android:src="@drawable/idea_100"
+                    android:src="@drawable/idea_100_off"
                     android:layout_weight="20" />
 
                 <LinearLayout
