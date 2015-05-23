@@ -37,6 +37,10 @@
             android:name=".AirConActivity"
             android:label="@string/title_activity_air_con" >
         </activity>
+        <activity
+            android:name=".SecurityActivity"
+            android:label="@string/title_activity_security" >
+        </activity>
     </application>
 
 </manifest>
