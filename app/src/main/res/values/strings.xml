@@ -20,5 +20,6 @@
     <string name="title_activity_home">HomeActivity</string>
     <string name="title_activity_air_con">CLIMATISATION</string>
     <string name="title_activity_security">SECURITE</string>
+    <string name="title_activity_outlets">PRISES</string>
 
 </resources>

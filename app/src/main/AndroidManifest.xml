@@ -41,6 +41,10 @@
             android:name=".SecurityActivity"
             android:label="@string/title_activity_security" >
         </activity>
+        <activity
+            android:name=".OutletsActivity"
+            android:label="@string/title_activity_outlets" >
+        </activity>
     </application>
 
 </manifest>
