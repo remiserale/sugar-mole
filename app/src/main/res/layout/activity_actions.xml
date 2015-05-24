@@ -1,0 +1,180 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.remi.sugarmole.ActionsActivity"
+    android:background="@color/blue1"
+    android:id="@+id/">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frameLayout">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/blue2"
+                android:id="@+id/blueBar"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/frameLayout"
+                android:layout_alignStart="@+id/frameLayout" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/elem1"
+            android:focusableInTouchMode="false"
+            android:layout_marginTop="40dp"
+            android:background="@color/blue1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="100"
+                android:layout_weight="30">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:layout_marginRight="5dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="21 °"
+                        android:id="@+id/button4"
+                        android:background="@drawable/bluewhitebordershape"
+                        android:textColor="@color/white"
+                        android:textAlignment="gravity"
+                        android:gravity="bottom|center_horizontal"
+                        android:layout_gravity="center"
+                        android:drawableTop="@drawable/temperature_filled_100"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="25dp"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:layout_marginLeft="5dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="6 lampes allumées"
+                        android:id="@+id/button5"
+                        android:background="@drawable/yellowwhitebordershape"
+                        android:textColor="@color/white"
+                        android:textAlignment="gravity"
+                        android:gravity="bottom|center_horizontal"
+                        android:layout_gravity="center"
+                        android:drawableTop="@drawable/idea_100_off"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="25dp"
+                        android:textStyle="bold"
+                        android:textSize="10dp"
+                        android:elegantTextHeight="false" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:weightSum="60"
+                android:gravity="center_horizontal">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:layout_marginRight="5dp" >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="21 °"
+                        android:id="@+id/button6"
+                        android:background="@drawable/bluewhitebordershape"
+                        android:textColor="@color/white"
+                        android:textAlignment="gravity"
+                        android:gravity="bottom|center_horizontal"
+                        android:layout_gravity="center"
+                        android:drawableTop="@drawable/temperature_filled_100"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="25dp"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:layout_marginRight="5dp" >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="21 °"
+                        android:id="@+id/button7"
+                        android:background="@drawable/bluewhitebordershape"
+                        android:textColor="@color/white"
+                        android:textAlignment="gravity"
+                        android:gravity="bottom|center_horizontal"
+                        android:layout_gravity="center"
+                        android:drawableTop="@drawable/temperature_filled_100"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="25dp"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:layout_marginRight="5dp" >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="21 °"
+                        android:id="@+id/button8"
+                        android:background="@drawable/bluewhitebordershape"
+                        android:textColor="@color/white"
+                        android:textAlignment="gravity"
+                        android:gravity="bottom|center_horizontal"
+                        android:layout_gravity="center"
+                        android:drawableTop="@drawable/temperature_filled_100"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="25dp"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

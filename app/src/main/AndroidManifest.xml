@@ -57,6 +57,10 @@
             android:name=".CompatibilityActivity"
             android:label="@string/title_activity_compatibility" >
         </activity>
+        <activity
+            android:name=".ActionsActivity"
+            android:label="@string/title_activity_actions" >
+        </activity>
     </application>
 
 </manifest>

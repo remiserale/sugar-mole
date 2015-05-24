@@ -1,12 +1,191 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.remi.sugarmole.HomeActivity">
+    android:layout_height="match_parent"
+    tools:context="com.remi.sugarmole.HomeActivity"
+    android:background="@color/white">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:background="@color/blue1">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="46">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView15"
+                android:src="@drawable/homepage_img_small" />
+
+            <ImageView
+                android:layout_width="174dp"
+                android:layout_height="94dp"
+                android:id="@+id/imageView16"
+                android:src="@drawable/sugar_mole"
+                android:layout_gravity="left|top"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/slogan"
+                android:id="@+id/textView27"
+                android:layout_gravity="left|top"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="60dp"
+                android:textColor="@color/facebook_blue" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/frameLayout"
+            android:layout_weight="2">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/blue2"
+                android:id="@+id/blueBar"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/frameLayout"
+                android:layout_alignStart="@+id/frameLayout" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="@color/black"
+            android:layout_marginBottom="2dp"
+            android:weightSum="100">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView17"
+                android:src="@drawable/overview_pages_2_100"
+                android:layout_weight="10"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/title_activity_my_scenarios"
+                android:id="@+id/textView28"
+                android:textColor="@color/white"
+                android:layout_weight="90"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="@color/black"
+            android:layout_marginBottom="2dp"
+            android:weightSum="100" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView18"
+                android:src="@drawable/activity_grid_2_100"
+                android:layout_weight="10"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/title_activity_actions"
+                android:id="@+id/textView29"
+                android:textColor="@color/white"
+                android:layout_weight="90"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="@color/black"
+            android:layout_marginBottom="2dp"
+            android:weightSum="100" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView19"
+                android:src="@drawable/system_information_100"
+                android:layout_weight="10"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/title_activity_compatibility"
+                android:id="@+id/textView30"
+                android:textColor="@color/white"
+                android:layout_weight="90"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="@color/black"
+            android:layout_marginBottom="2dp"
+            android:weightSum="100" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView20"
+                android:src="@drawable/settings_100"
+                android:layout_weight="10"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/title_activity_settings"
+                android:id="@+id/textView31"
+                android:textColor="@color/white"
+                android:layout_weight="90"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/imageButton"
+            android:layout_weight="12"
+            android:src="@drawable/electrical_sensor_100"
+            android:background="@drawable/bluewhitebordershape"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
 
 </RelativeLayout>

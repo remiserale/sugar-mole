@@ -26,5 +26,7 @@
     <string name="deconnection">DECONNEXION</string>
     <string name="apropos">A PROPOS</string>
     <string name="title_activity_compatibility">COMPATIBILITE</string>
+    <string name="title_activity_actions">ACTIONS</string>
+    <string name="slogan">make your life easier</string>
 
 </resources>
