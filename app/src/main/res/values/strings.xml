@@ -28,5 +28,7 @@
     <string name="title_activity_compatibility">COMPATIBILITE</string>
     <string name="title_activity_actions">ACTIONS</string>
     <string name="slogan">make your life easier</string>
+    <string name="title_activity_speech">RECONNAISSANCE VOCALE</string>
+    <string name="listening">Écoute...</string>
 
 </resources>

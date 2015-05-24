@@ -61,6 +61,10 @@
             android:name=".ActionsActivity"
             android:label="@string/title_activity_actions" >
         </activity>
+        <activity
+            android:name=".SpeechActivity"
+            android:label="@string/title_activity_speech" >
+        </activity>
     </application>
 
 </manifest>
