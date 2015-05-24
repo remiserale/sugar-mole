@@ -8,12 +8,14 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:weightSum="100">
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/frameLayout">
+            android:layout_height="0dp"
+            android:id="@+id/frameLayout"
+            android:layout_weight="8">
 
             <View
                 android:layout_width="match_parent"
@@ -26,154 +28,181 @@
         </FrameLayout>
 
         <LinearLayout
-            android:orientation="vertical"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/elem1"
-            android:focusableInTouchMode="false"
-            android:layout_marginTop="40dp"
-            android:background="@color/blue1"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:weightSum="100">
+            android:layout_height="0dp"
+            android:layout_weight="35"
+            android:padding="12dp">
 
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:weightSum="100"
-                android:layout_weight="30">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="21 °"
+                android:id="@+id/button4"
+                android:background="@drawable/bluewhitebordershape"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:gravity="bottom|center_horizontal"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/temperature_filled_100"
+                android:paddingBottom="35dp"
+                android:paddingTop="35dp"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:layout_weight="50"
+                android:layout_marginRight="12dp" />
 
-                <FrameLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="50"
-                    android:layout_marginRight="5dp">
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="21 °"
-                        android:id="@+id/button4"
-                        android:background="@drawable/bluewhitebordershape"
-                        android:textColor="@color/white"
-                        android:textAlignment="gravity"
-                        android:gravity="bottom|center_horizontal"
-                        android:layout_gravity="center"
-                        android:drawableTop="@drawable/temperature_filled_100"
-                        android:paddingBottom="20dp"
-                        android:paddingTop="25dp"
-                        android:textStyle="bold"
-                        android:textSize="15dp" />
-
-
-                </FrameLayout>
-
-                <FrameLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="50"
-                    android:layout_marginLeft="5dp">
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="6 lampes allumées"
-                        android:id="@+id/button5"
-                        android:background="@drawable/yellowwhitebordershape"
-                        android:textColor="@color/white"
-                        android:textAlignment="gravity"
-                        android:gravity="bottom|center_horizontal"
-                        android:layout_gravity="center"
-                        android:drawableTop="@drawable/idea_100_off"
-                        android:paddingBottom="20dp"
-                        android:paddingTop="25dp"
-                        android:textStyle="bold"
-                        android:textSize="10dp"
-                        android:elegantTextHeight="false" />
-                </FrameLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="20"
-                android:weightSum="60"
-                android:gravity="center_horizontal">
-
-                <FrameLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="20"
-                    android:layout_marginRight="5dp" >
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="21 °"
-                        android:id="@+id/button6"
-                        android:background="@drawable/bluewhitebordershape"
-                        android:textColor="@color/white"
-                        android:textAlignment="gravity"
-                        android:gravity="bottom|center_horizontal"
-                        android:layout_gravity="center"
-                        android:drawableTop="@drawable/temperature_filled_100"
-                        android:paddingBottom="20dp"
-                        android:paddingTop="25dp"
-                        android:textStyle="bold"
-                        android:textSize="15dp" />
-                </FrameLayout>
-
-                <FrameLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="20"
-                    android:layout_marginRight="5dp" >
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="21 °"
-                        android:id="@+id/button7"
-                        android:background="@drawable/bluewhitebordershape"
-                        android:textColor="@color/white"
-                        android:textAlignment="gravity"
-                        android:gravity="bottom|center_horizontal"
-                        android:layout_gravity="center"
-                        android:drawableTop="@drawable/temperature_filled_100"
-                        android:paddingBottom="20dp"
-                        android:paddingTop="25dp"
-                        android:textStyle="bold"
-                        android:textSize="15dp" />
-                </FrameLayout>
-
-                <FrameLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="20"
-                    android:layout_marginRight="5dp" >
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="21 °"
-                        android:id="@+id/button8"
-                        android:background="@drawable/bluewhitebordershape"
-                        android:textColor="@color/white"
-                        android:textAlignment="gravity"
-                        android:gravity="bottom|center_horizontal"
-                        android:layout_gravity="center"
-                        android:drawableTop="@drawable/temperature_filled_100"
-                        android:paddingBottom="20dp"
-                        android:paddingTop="25dp"
-                        android:textStyle="bold"
-                        android:textSize="15dp" />
-                </FrameLayout>
-            </LinearLayout>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="6 lampes allumées"
+                android:id="@+id/button5"
+                android:background="@drawable/yellowwhitebordershape"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:gravity="bottom|center_horizontal"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/idea_100_off"
+                android:paddingBottom="35dp"
+                android:paddingTop="35dp"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:elegantTextHeight="false"
+                android:layout_weight="50" />
 
         </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="23"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="12dp"
+            android:weightSum="90">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button6"
+                android:background="@drawable/turquoisewhitebordershape"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:gravity="bottom|center_horizontal"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/lamp_100"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:layout_weight="31"
+                android:layout_marginRight="12dp"
+                android:text="@string/title_activity_lights" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button7"
+                android:background="@drawable/greywhitebordershape"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:gravity="bottom|center_horizontal"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/lock_100"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:layout_weight="31"
+                android:layout_marginRight="12dp"
+                android:text="@string/title_activity_security" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button8"
+                android:background="@drawable/orange2whitebordershape"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:gravity="bottom|center_horizontal"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/lamp_100"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:layout_weight="31"
+                android:layout_marginRight="12dp"
+                android:text="@string/title_activity_outlets" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="23"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="12dp"
+            android:weightSum="90" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button9"
+                android:background="@drawable/orange1whitebordershape"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:gravity="bottom|center_horizontal"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/lamp_100"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:layout_weight="31"
+                android:layout_marginRight="12dp"
+                android:text="@string/title_activity_heating" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button10"
+                android:background="@drawable/bluewhitebordershape"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:gravity="bottom|center_horizontal"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/lamp_100"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:layout_weight="31"
+                android:layout_marginRight="12dp"
+                android:text="@string/title_activity_air_con" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button11"
+                android:background="@drawable/greenwhitebordershape"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:gravity="bottom|center_horizontal"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/lamp_100"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:layout_weight="31"
+                android:layout_marginRight="12dp"
+                android:text="@string/sensors" />
+        </LinearLayout>
+
     </LinearLayout>
 
 

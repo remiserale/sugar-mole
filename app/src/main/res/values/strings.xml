@@ -30,5 +30,7 @@
     <string name="slogan">make your life easier</string>
     <string name="title_activity_speech">RECONNAISSANCE VOCALE</string>
     <string name="listening">Écoute...</string>
+    <string name="lights">lumières</string>
+    <string name="sensors">CAPTEURS</string>
 
 </resources>
