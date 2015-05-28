@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
     tools:context="com.remi.sugarmole.CompatibilityActivity"
     android:background="@color/blue1"
-    android:id="@+id/">
+    android:id="@+id/mainLayout">
 
     <LinearLayout
         android:orientation="vertical"

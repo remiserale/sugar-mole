@@ -5,7 +5,9 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import com.remi.sugarmole.model.Model;
 
+import java.io.IOException;
 
 public class SignInActivity extends Activity {
 
@@ -13,6 +15,8 @@ public class SignInActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
+
+            Model.getInstance().checkUsers();
     }
 
     @Override
